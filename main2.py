@@ -9,8 +9,6 @@ from PointManager import PointManager
 
 client = commands.Bot(command_prefix="!")
 
-token = "ODU2Njc2MTQ0MTYxODgyMTcz.YNEf1Q.M1pXYg3_HYW4YYtTg08vzsPEoVY"
-
 @client.event
 async def on_ready(): # do action 1 time when ready
 
@@ -537,4 +535,3 @@ async def on_command_error(ctx, error):
     if isinstance(error, commands.CommandNotFound):
         await ctx.send("!도움이라고 쳐바")
 """
-client.run(token)
