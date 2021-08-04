@@ -1,6 +1,5 @@
 import asyncio, discord, time, schedule, openpyxl, logging, time, datetime
 import os
-import numpy as np
 import json
 from game import *
 from user import *
