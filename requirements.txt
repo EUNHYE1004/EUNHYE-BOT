@@ -7,5 +7,4 @@ logging
 time
 datetime
 os
-numpy as np
 json
