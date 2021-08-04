@@ -1,4 +1,4 @@
-import asyncio, discord, time, schedule, openpyxl, logging, time, datetime
+import asyncio, discord, time, schedule, openpyxl, logging, datetime
 import os
 import json
 from game import *
